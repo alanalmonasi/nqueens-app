@@ -1,0 +1,18 @@
+body {
+  margin: 20px;
+  background-color: antiquewhite;
+  background-color: #d66f00;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+}
+
+hr {
+  border: 3px black solid;
+}
+
+.solutions {
+  font-weight: bold;
+}
+
+img {
+  background-color: red;
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing ChessBoard component should show default component 1`] = `
+<div>
+  <h2>
+    Chessboard
+  </h2>
+  <div
+    style="grid-template-columns: repeat(0, 1fr); display: grid; margin-top: 20px; box-shadow: 12px 12px 3px rgba(0,0,0,0.9);"
+  />
+  <div
+    class="solutions"
+    style="display: none;"
+  >
+    <button
+      class="btn btn-primary mt-4"
+    >
+      Next solution
+    </button>
+    <hr />
+    <div>
+      Current solution: 
+      []
+    </div>
+    <div
+      aria-label="total-solutions"
+    >
+      Total solutions for this board size: 
+      1
+    </div>
+    <div
+      id="remaining-solutions"
+    >
+      Remaining solutions: 
+      0
+    </div>
+  </div>
+</div>
+`;
